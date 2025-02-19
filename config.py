@@ -28,13 +28,16 @@ class Config(object):
 
 
     caption = """
-**File Name**: {0}
+🚀 **File Successfully Processed!** 🌟  
 
-**Original File Size:** {1}
-**Encoded File Size:** {2}
-**Compression Percentage:** {3}
+📂 **File Name:** `{0}` 📝✨  
+📏 **Original Size:** `{1}` 📦📏  
+🗜 **Encoded Size:** `{2}` 🔐💾  
+📉 **Compression:** `{3}%` 📊🔽  
 
-__Downloaded in {4}__
-__Encoded in {5}__
-__Uploaded in {6}__
+⏬ **Downloaded in:** `{4}` ⏳📥  
+⚙️ **Encoded in:** `{5}` ⚡🎛  
+☁️ **Uploaded in:** `{6}` 🚀📤  
+
+🔥 **Your file is compressed, optimized, and ready to go!** 😎✨
 """
