@@ -13,11 +13,14 @@ I'ᴍ Fɪʟᴇs Eɴᴄᴏᴅᴇʀ ʙᴏᴛ ᴄᴀɴ ᴄᴏᴍᴘʀᴇss ʏᴏᴜ
 ❗**Yᴏᴜ ʜᴀsɴ'ᴛ sᴛᴀʀᴛᴇᴅ ᴍᴇ ʏᴇᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ғɪʀsᴛ sᴛᴀʀᴛ ᴍᴇ sᴏ ɪ ᴄᴀɴ ᴡᴏʀᴋ ғʟᴀᴡʟᴇssʟʏ**
 """
     PROGRESS_BAR = """<b>
-🌌 🚀 Uploading to the Stars... 🚀 🌌  
-🌟 File Size : {1} | {2}  
-🌟 Progress  : {0}% █████░░░░░░░  
-🌟 Speed     : {3}/s  
-🌟 ETA       : {4} </b>"""
+🚀🌌 Uploading to the Stars... 🌌🚀  
+
+📁 **File Size:** `{1} | {2}` 🌍💾  
+📊 **Progress:** `{0}%` ✅📈🔵  
+⚡ **Speed:** `{3}/s` 🚀⚡🔥  
+⏳ **ETA:** `{4}` ⏱️⏩🏁  
+
+🌟 **Hang tight! Your file is taking off into the universe!** ✨🌠💖 </b>"""
 
     SEND_FFMPEG_CODE = """
 ❪ SET CUSTOM FFMPEG CODE ❫
