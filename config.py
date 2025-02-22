@@ -16,6 +16,15 @@ class Config(object):
     DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
     DB_NAME  = os.environ.get("DB_NAME","SnowEncoderBot") 
 
+    # Turn this feature on or off using True or False put value inside  ""
+    # TRUE for yes FALSE if no 
+    TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
+    SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+    SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+    VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
+    IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+    TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
+
     # Other Configs 
     ADMIN = int(os.environ.get("ADMIN", "5446367898")) # ⚠️ Required
     LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002317509038')) # ⚠️ Required
