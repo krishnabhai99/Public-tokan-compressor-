@@ -20,7 +20,7 @@ class Config(object):
     # TRUE for yes FALSE if no 
     TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
     SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "anylinks.in")
-    SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+    SHORTLINK_API = os.environ.get("SHORTLINK_API", "d3b719a450497b8ccf8a1f2d0b1e38ecad78e3c5")
     VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
     IS_VERIFY = os.environ.get("IS_VERIFY", "True")
     TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
